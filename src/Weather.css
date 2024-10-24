@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('/public/weatherBg.jpg');
+    /* background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; */
+    font-family: 'Roboto', sans-serif;
+    margin: 5%;
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    padding: 15px;
+    font-size: large;
+    
+}
+.main-container {
+    display: grid;
+}
+.content {
+    display: none;
+    margin-top: 7%;
+    background-color: azure;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 14px;
+    padding: 15px;
+
+}
+.search-bar input {
+    width: 70%;
+    padding: 10px;
+}
+.search-bar input {
+    margin-top: 25%;
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 18px;
+}
